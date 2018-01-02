@@ -18,10 +18,46 @@ html {
 }
 
 .card-body {
-  font-size: 1.5rem;
   margin: .75em;
 }
 
+.card {
+  display: block;
+}
+
+.card-body h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.card-body p {
+  text-align: left;
+  margin-top: 0;
+}
+
 .card-img {
+  display: block;
+  margin: 0 auto;
   width: 50px;
+  text-align: center;
+}
+
+.card-img img {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.cards li {
+  display: block;
+  list-style-type: none;
 }
