@@ -16,3 +16,12 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.card-body {
+  font-size: 1.5rem;
+  margin: .75em;
+}
+
+.card-img {
+  width: 50px;
+}
