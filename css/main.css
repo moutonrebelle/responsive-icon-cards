@@ -36,13 +36,6 @@ html {
   margin-top: 0;
 }
 
-.card-img {
-  display: block;
-  margin: 0 auto;
-  width: 50px;
-  text-align: center;
-}
-
 .card-img img {
   display: block;
   margin: 0 auto;
@@ -64,6 +57,16 @@ html {
 
 @media only screen and (min-width: 25em) {
 
+  div {
+    display: inline-block;
+  }
+
+  img {
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -73,6 +76,13 @@ html {
     line-height: 1.4;
   }
 
+    div {
+      display: inline-block;
+      width: 33.3333%;
+      min-height: 27em;
+      padding-right: .75rem;
+      float: left;
+    }
 }
 
 @media only screen and (min-width: 60em) {
