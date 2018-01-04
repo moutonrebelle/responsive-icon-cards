@@ -51,21 +51,37 @@ html {
 }
 
 .cards li {
-  display: block;
+  display: inline-block;
   list-style-type: none;
 }
 
 @media only screen and (min-width: 25em) {
 
-  div {
+.card-img {
     display: inline-block;
+    text-align: left;
+    margin: 0;
+    width: 15%;
   }
 
-  img {
-    display: inline-block;
-    margin: 0;
-    text-align: left;
-  }
+.card-img img {
+  margin: 0;
+}
+
+.card-body h2 {
+  margin: 0;
+}
+
+.card {
+  display: inline-block;
+}
+
+.content {
+  display: inline-block;
+  text-align: left;
+  margin-top: 0;
+  width: 73%;
+}
 
 }
 
@@ -76,12 +92,22 @@ html {
     line-height: 1.4;
   }
 
-    div {
-      display: inline-block;
-      width: 33.3333%;
-      min-height: 27em;
-      padding-right: .75rem;
-    }
+.card {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    min-height: 27em;
+    padding-right: 0;
+  }
+
+  li {
+    width: 30%;
+  }
+
+.card-img {
+  width: 30%;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -90,7 +116,6 @@ html {
     font-size: 120%;
     line-height: 1.5;
   }
-
 }
 
 @media only screen and (min-width: 90em) {
